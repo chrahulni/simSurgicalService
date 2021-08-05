@@ -1,0 +1,17 @@
+# See http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+spring:
+  thymeleaf.cache: false
+  main.show-banner: false
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration
+  
+        
+server:
+   ssl:
+       enabled: false
+   port: '19500'
+   servlet:
+     contextPath: '/simsurgicalservice'
+  
+    
+     
